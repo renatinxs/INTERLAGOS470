@@ -98,7 +98,7 @@ nav ul li a{
     margin-left:auto;
     margin-right:auto;
     margin-top:30%;
-    width:70%;
+    width:80%;
     height:auto;
     box-shadow:-20px -5px 40px black;
    
@@ -135,7 +135,7 @@ legend {
     width: 95%;
     float:left;
     margin: 10px;
-    margin-top: -3%;
+    margin-top: 0%;
 }
 
 .caixinha{

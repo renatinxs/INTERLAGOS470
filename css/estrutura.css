@@ -81,18 +81,20 @@ nav ul li a{
     display:block;
     margin-left:auto;
     margin-right:auto;
+    margin-top:0%;
     padding:50px;
     width:100%;
     height:700px;
-    box-shadow:1px -40px 50px black;
+    box-shadow: 1px -30px 40px black;
     background: var(--bg-color1);
 }
 .hstcard{
-    width:700px;
-    margin-left:10%;
+    width:500px;
+    margin-left:20%;
+    margin-top: 2%;
 }
 .hstcard .imgbanner img{
-    margin-left:145%;
+    margin-left:130%;
     margin-top:15%;
     width:500px;
     height:500px;
@@ -103,7 +105,7 @@ nav ul li a{
     box-shadow:15px 1px 20px black;
 }
 .hstcard{
-    margin-left:20%;
+    margin-left:13%;
     width:400px;
 }
 .hstcard .content h1{
@@ -122,7 +124,7 @@ nav ul li a{
     text-align:justify;
 }
 #principal{
-   margin-top: 7%;
+   margin-top: 8.5%;
    margin-left:-3%;
    display:flex;
    align-items: center;
@@ -135,13 +137,15 @@ nav ul li a{
 #principal:hover{
     text-decoration:underline;
     font-size:2rem;
+    color: var(--font-color1);
 }
 .espaco2{
+  
     display:block;
     margin-left:auto;
     margin-right:auto;
     width:100%;
-    height:600px;
+    height:650px;
     background:var(--bg-color4);
     transition:0.5s;
 }
@@ -150,15 +154,15 @@ nav ul li a{
 }
 .histcard{
     color:var(--font-color1);
-    margin-left:15%;
+    margin-left:4%;
     width:600px;
-    height:600px;
+    height:650px;
     background:var(--bg-color4);
     box-shadow: 20px 1px 40px black;
     transition:0.5s;
 }
 .histcard:hover{
-  
+    margin-left: 50px;
     box-shadow: 10px 1px 20px black;
 }
 .histcard .content2{
@@ -174,16 +178,16 @@ nav ul li a{
 }
 .histcard2{
     color:var(--font-color1);
-    margin-left:50.5%;
-    margin-top:-31.7%;
+    margin-left:51.5%;
+    margin-top:-48.2%;
     width:600px;
-    height:600px;
+    height:650px;
     background:var(--bg-color4);
     box-shadow: -20px 1px 40px black;
     transition:0.5s;
 }
 .histcard2:hover{
- 
+    margin-left: 700px;
     box-shadow: -10px 1px 20px black;
 }
 .histcard2 .content3{
@@ -192,10 +196,10 @@ nav ul li a{
 }
 .histcard2 .content3 h1{
     transition:0.5s;
-    margin-top:3%;
+    margin-top:1%;
 }
 .histcard2 .content3 p{
-    margin-top:-1%;
+    margin-top:3%;
 }
 .histcard .content2 h1:hover{
     text-decoration:underline;
@@ -208,8 +212,9 @@ footer{
     align-items: center;
     justify-content: center;
     width:100%;
-    height:100px;
+    height:50px;
     background:var(--bg-color2);
+    margin-top: 0%;
 }
 footer p{
     display:flex;

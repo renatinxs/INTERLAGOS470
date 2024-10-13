@@ -1,80 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Julius+Sans+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-/*.cinzel-<uniquifier> {
-  font-family: "Cinzel", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}*/
-/*.julius-sans-one-regular {
-  font-family: "Julius Sans One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}*/
 
-/*<div class="card">
-<div class="img-box">
-    <img src="./img/iconinstagram.png">
-</div>
-<div class="content">
-    <a><p>@renatinx</p></a>
-    <a><p>@sh4olin_12</p></a>
-    <a><p>@natan_07barsotti</p></a>
-    <a><p>@sammuel_alvess</p></a>
-</div>
-</div>*/
-/*.card{
-    display:flex;
-    justify-content: center;
-    margin-left:-30%;
-    margin-top:-20%;
-    width:50px;
-    position: relative;
-    background:var(--bg-color2);
-    overflow:hidden;
-    transition:0.5s;
-    border-radius:40%;
-}
-.card:hover{
-    margin-top:0.01%;
-    width:200px;
-    border-radius:0%;
-}
-.card .img-box{
-    position:absolute;
-    width:50px;
-    height:auto;
-    top:0px;
-    transition:0.5s;
-}
-.card:hover .img-box{
-    margin-top:10%;
-    scale: 1;
-}
-.card .img-box img{
-    width: 50;
-    height:100%;
-    object-fit:cover;
-}
-.card .content{
-    display: flex;
-    text-align: center;
-    flex-direction:column;
-   
-    height:50px;
-    padding:15px;
-    transition:0.5s;
-}
-.card:hover .content{
-    height: 400px;
-}
-.card .content p{
-    display:flex;
-    align-items: 
-   justify-content: ;
-    color:var(--font-color1);
-    
-}*/
 
 :root{
     --bg-color1:#fff;
@@ -172,7 +98,7 @@ nav ul li a{
     box-shadow:15px 1px 20px black;
 }
 .hstcard{
-    margin-left:20%;
+    margin-left:10%;
     width:400px;
 }
 .hstcard .content h1{
@@ -204,7 +130,7 @@ nav ul li a{
 }
 .histcard{
     color:var(--font-color1);
-    margin-left:15%;
+    margin-left:4%;
     width:600px;
     height:600px;
     background:var(--bg-color4);
@@ -212,7 +138,7 @@ nav ul li a{
     transition:0.5s;
 }
 .histcard:hover{
-    margin-left:14%;
+    margin-left:50px;
     box-shadow: 10px 1px 20px black;
 }
 .histcard .content2{
@@ -228,8 +154,8 @@ nav ul li a{
 }
 .histcard2{
     color:var(--font-color1);
-    margin-left:50.5%;
-    margin-top:-31.6%;
+    margin-left:51.5%;
+    margin-top:-44.5%;
     width:600px;
     height:600px;
     background:var(--bg-color4);
@@ -237,7 +163,7 @@ nav ul li a{
     transition:0.5s;
 }
 .histcard2:hover{
-    margin-left:52%;
+    margin-left:700px;
     box-shadow: -10px 1px 20px black;
 }
 .histcard2 .content3{
@@ -262,14 +188,15 @@ footer{
     align-items: center;
     justify-content: center;
     width:100%;
-    height:100px;
+    height:70px;
     background:var(--bg-color2);
+    margin-top:0%;
 }
 footer p{
     display:flex;
     align-items:center;
     justify-content: center;
-    margin-top:0%;
+    margin-top:1%;
     margin-left:0%;
     color: var(--font-color1);
     font-size:15px;

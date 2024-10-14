@@ -221,7 +221,7 @@ footer p{
         height:800px;
     }
     .caixa{
-        margin-left:-137.5%;
+        margin-left:85%;
         margin-top:-150%;
         width:240%;
         height:auto;
@@ -231,7 +231,7 @@ footer p{
         
     }
     .caixinha {
-        margin-left:-280%;
+        margin-left:-285%;
         margin-top:400%;
         width:271%;
         height:auto;
@@ -240,7 +240,7 @@ footer p{
         font-size:15px;
     }
     .imagembanner img{
-        margin-left:45%;
+        margin-left:-3%;
         margin-top:70%;
         width:400px;
         box-shadow:1px 1px 10px black;
